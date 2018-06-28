@@ -1,9 +1,9 @@
 # Webpack4 Template
 
 ## setup
-		npm init		
+		npm init
 		npm install webpack webpack-cli webpack-dev-server --save-dev
-		npm install css-loader file-loader style-loader url-loader --save-dev
+		npm install css-loader file-loader style-loader url-loader html-loader --save-dev
 		npm install babel-core babel-loader babel-preset-env --save-dev
 		npm install clean-webpack-plugin html-webpack-plugin uglifyjs-webpack-plugin --save-dev
 		npm install mini-css-extract-plugin optimize-css-assets-webpack-plugin purify-css --save-dev
@@ -12,7 +12,7 @@
 ## npm command
 		# update npm
 		npm i -g npm to update
-		
+
 		# show webpack available versions
 		npm view webpack versions
 

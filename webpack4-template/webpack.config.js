@@ -40,6 +40,12 @@ module.exports = {
                         name: 'resource/[name].[ext]'
                     }
                 }]
+            },
+            {
+                test: /\.(html)(\?.*)?$/,
+                use: [{
+                    loader: 'html-loader'
+                }]
             }
         ]
     },
