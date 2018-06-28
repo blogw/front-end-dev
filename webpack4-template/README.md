@@ -19,8 +19,14 @@
 		# install webpack of specified version
 		npm install webpack@3.12.0 --save-dev
 
-## reference
+## git command
+		git clone xxx
+		git status
+		git add *
+		git commit -m 'xxx'
+		git push
 
+## reference
 - [extract-text-webpack-plugin](https://github.com/webpack-contrib/extract-text-webpack-plugin)
 - [mini-css-extract-plugin](https://github.com/webpack-contrib/mini-css-extract-plugin)
 - [小记webpack4.x升级过程](https://www.imooc.com/article/24738)
